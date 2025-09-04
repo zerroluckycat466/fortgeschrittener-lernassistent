@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-@app.route('/api/lernpfad', methods=['POST'])
+@app.route('/api/learning-paths', methods=['POST'])
 def create_learning_path():
     user_data = request.json
     # Logic for creating a personalized learning path would go here
