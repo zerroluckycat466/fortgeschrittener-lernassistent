@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Fortgeschrittener Lernassistent</title>
+</head>
+<body>
+    <header>
+        <h1>Fortgeschrittener Lernassistent</h1>
+    </header>
+    <div class="container">
+        <h2>Willkommen beim Lernassistenten!</h2>
+        <p>Erstellen Sie Ihren persönlichen Lernpfad.</p>
+        <form id="learning-path-form">
+            <button type="submit">Lernpfad erstellen</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2023 Fortgeschrittener Lernassistent</p>
+    </footer>
+    <script>document.getElementById('learning-path-form').onsubmit = function(e) {
+        e.preventDefault();
+        // Hier würde der Code zur Erstellung eines Lernpfades hinzugefügt werden.
+    };
+    </script>
+</body>
+</html>
