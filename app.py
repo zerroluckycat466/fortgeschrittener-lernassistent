@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/api/learning-paths', methods=['POST'])
 def create_learning_path():
     user_data = request.json
-    # Logic for creating a personalized learning path would go here
+    # Logic for creating a personalized learning path based on the user_data would go here
     return jsonify({'message': 'The learning path has been successfully created!'}), 201
 
 if __name__ == '__main__':
